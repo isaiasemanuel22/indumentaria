@@ -9,18 +9,19 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {defineLordIconElement} from 'lord-icon-element'
 import { LottieAnimationViewModule } from 'ng-lottie';
 import Lottie from 'lottie-web';
+import { CommonModuleApp } from './common/common.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LogoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    LottieAnimationViewModule.forRoot()
+    LottieAnimationViewModule.forRoot(),
+    CommonModuleApp
   ],
   providers: [],
   bootstrap: [AppComponent],

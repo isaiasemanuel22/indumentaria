@@ -18,10 +18,9 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            .logo{
+            .logo {
                 width: 20%;
-                min-width: 200px;
-                
+                min-width: 100px;
             }
             .menu {
                 width: 30%;
@@ -47,9 +46,9 @@
                 }
             }
             .menu2 {
-                width: 300px;
+                width: 30%;
                 ul {
-                    font-size: 20px;
+                    font-size: 1.5vw;
                     width: 100%;
                     margin: 0;
                     padding: 0;
@@ -58,13 +57,33 @@
                     align-items: center;
                     justify-content: space-around;
                     .input {
-                        width: 150px;
+                        width: 40%;
+                        height: 50%;
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
                         border-bottom: 2px solid #000;
+                        .buscador {
+                            width: 20%;
+                            height: 50%;
+                        }
+
                         h5 {
                             font-weight: 100;
+                        }
+                    }
+
+                    li {
+                        width: 30%;
+                        display: flex;
+                        justify-content: center;
+                        .person {
+                            width: 30%;
+                            height: 50%;
+                        }
+                        .cart {
+                            width: 30%;
+                            height: 50%;
                         }
                     }
                 }
